@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+    background-image: url("Campus3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .center {
+    position: absolute;
+    top: 40%;
+    height: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    background: white;
+    border: 1px solid rgba(241, 238, 238, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+  }
+  .center h1 {
+    text-align: center;
+    padding: 0 10px 20px 0;
+    border-bottom: 1px solid rgb(200, 196, 196);
+    padding-top: 5px;
+    padding-bottom : 10px;
+  }
+  
+  .logo {
+    position: relative;
+    top: 5px;
+    left: 15px;
+}
+.head {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  position:absolute;
+  top: 180px;
+  left: 120px;
+  width:750px;
+  height:200px;
+  text-align:left;
+  padding-left: 20px;
+  font-size: 45px;
+  }
+.tail {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  position:absolute;
+  top: 180px;
+  left: 1100px;
+  width:750px;
+  height:200px;
+  text-align:left;
+  padding-left: 20px;
+  font-size: 45px;
+}
+
+  .search{
+    padding-left:20px;
+    
+    
+  }
+
+  .validate{
+    padding-left:75px;
+    
+    
+  }
+
+  .search button{
+    background-color: #2980b9;
+    color:#e9f4fb;
+    border-color: #2691d9;
+    border-radius:10px;
+    font-size: 18px;
+  }
+
+  .validate button{
+    background-color: #2980b9;
+    color:#e9f4fb;
+    border-color: #2691d9;
+    border-radius:10px;
+    font-size: 18px;
+  }
+
+  .sub button:hover{
+    border-color: #2691d9;
+    transition: .5s;}
+
+    .sub{
+        padding-top:25px;
+        padding-left:120px;
+        border-top: 2px solid rgb(200, 196, 196);
+    }  
+
+    .btn0{
+      padding: 0 0 10px 0;
+      position: relative;
+      font-family: "Roboto", sans-serif;
+      font-size: 14px;
+      margin: 30px 30px;
+      font-weight: bold;
+      background-color: #2980b9;
+      width: 160px;
+      padding: 20px;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #fff;
+      border-radius: 20px;
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: box-shadow, transform;
+      transition-property: box-shadow, transform;
+  }
+  .btn0:hover, .btn0:focus, .btn0:active{
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+  }
