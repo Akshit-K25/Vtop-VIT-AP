@@ -1,298 +1,326 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+<head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="2Test.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Test-2</title>
-   </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test-2</title>
+
+    <style>
+        body {
+            background-color: #fff; /* Light mode background */
+            transition: background-color 0.3s ease;
+        }
+
+        .dark-mode {
+            background-color: #333; /* Dark mode background */
+            color: #fff; /* Dark mode text color */
+        }
+    </style>
+</head>
 <body>
-  <div class="sidebar close">
+<div class="sidebar close">
     <div class="nav-header">
-      <p class="logo">V-TOP</p>
+        <p class="logo">V-TOP</p>
         <i class="bx bx-menu btn-menu"></i>
     </div>
     <ul class="nav-links">
         <li>
-          <a href="#">
-              <i class='bx bx-home'></i>
-              <span class="link_name">Home</span>
-            </a>
-          <ul class="sub-menu blank">
-            <li><a class="link_name" href="#">Home</a></li>
-          </ul>
-        </li>
-        <li>
-          <div class="iocn-link">
             <a href="#">
-                <i class='bx bx-info-circle'></i>
-              <span class="link_name">My Info</span>
+                <i class='bx bx-home'></i>
+                <span class="link_name">Home</span>
             </a>
-            <i class='bx bxs-chevron-down arrow' ></i>
-          </div>
-          <ul class="sub-menu">
-              <li><a class="link_name" href="#">My Info</a></li>
-              <li><a href="#">Provisional Allotment Letter</a></li>
-              <li><a href="#">VIT-AP Credentials</a></li>
-              <li><a href="#">DayBoarder Info</a></li>
-              <li><a href="#">Student Bank Info</a></li>
-              <li><a href="#">Codetantra Credentials</a></li>
-          </ul>
+            <ul class="sub-menu blank">
+                <li><a class="link_name" href="#">Home</a></li>
+            </ul>
         </li>
         <li>
-          <div class="iocn-link">
-            <a href="#">
-              <i class='bx bx-user'></i>
-              <span class="link_name">Mentor</span>
-            </a>
-            <i class='bx bxs-chevron-down arrow' ></i>
-          </div>
-          <ul class="sub-menu">
-            <li><a class="link_name" href="#">Mentor</a></li>
-            <li><a href="Mentor.html">View Mentor Details</a></li>
-            <li><a href="MentorM.html">View Mentor's Messages</a></li>
-            <li><a href="#">Send Message to Mentor</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="COE.html">
-              <i class='bx bx-file'></i>
-              <span class="link_name">COE Exam Links</span>
-            </a>
-          <ul class="sub-menu blank">
-            <li><a class="link_name" href="#">COE Exam Links</a></li>
-          </ul>
-        </li>
-        <li>
-          <div class="iocn-link">
-          <a href="#">
-              <i class='bx bx-search-alt'></i>
-              <span class="link_name">Query</span>
-            </a>
-            <i class='bx bxs-chevron-down arrow' ></i>
-          </div>
-          <ul class="sub-menu">
-            <li><a class="link_name" href="#">Query</a></li>
-            <li><a href="#">Course Reg Links View</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Spotlight</a></li>
-            <li><a href="#">View Circular(s)</a></li>
-          </ul>
-        </li>
-        <li>
-          <div class="iocn-link">
-              <a href="#">
-                  <i class="bx bx-wallet-alt"></i>
-                  <span class="link_name">Online Payments</span>
+            <div class="iocn-link">
+                <a href="#">
+                    <i class='bx bx-info-circle'></i>
+                    <span class="link_name">My Info</span>
                 </a>
-            <i class='bx bxs-chevron-down arrow' ></i>
-          </div>
-          <ul class="sub-menu">
-            <li><a class="link_name" href="#">Online Payments</a></li>
-            <li><a href="#">Payments</a></li>
-            <li><a href="#">Payments Receipts</a></li>
-            <li><a href="#">Online Transfer</a></li>
-            <li><a href="#">Student Wallet</a></li>
-          </ul>
+                <i class='bx bxs-chevron-down arrow'></i>
+            </div>
+            <ul class="sub-menu">
+                <li><a class="link_name" href="#">My Info</a></li>
+                <li><a href="#">Provisional Allotment Letter</a></li>
+                <li><a href="#">VIT-AP Credentials</a></li>
+                <li><a href="#">DayBoarder Info</a></li>
+                <li><a href="#">Student Bank Info</a></li>
+                <li><a href="#">Codetantra Credentials</a></li>
+            </ul>
         </li>
         <li>
-          <div class="iocn-link">
-          <a href="#">
-            <i class='bx bx-cog' ></i>
-            <span class="link_name">Settings</span>
-          </a>
-          <i class='bx bxs-chevron-down arrow' ></i>
-          </div>
-          <ul class="sub-menu">
-            <li><a class="link_name" href="#">Settings</a></li>
-            <li><a href="#">Change Password</a></li>
-          </ul>
+            <div class="iocn-link">
+                <a href="#">
+                    <i class='bx bx-user'></i>
+                    <span class="link_name">Mentor</span>
+                </a>
+                <i class='bx bxs-chevron-down arrow'></i>
+            </div>
+            <ul class="sub-menu">
+                <li><a class="link_name" href="#">Mentor</a></li>
+                <li><a href="Mentor.html">View Mentor Details</a></li>
+                <li><a href="MentorM.html">View Mentor's Messages</a></li>
+                <li><a href="#">Send Message to Mentor</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="COE.html">
+                <i class='bx bx-file'></i>
+                <span class="link_name">COE Exam Links</span>
+            </a>
+            <ul class="sub-menu blank">
+                <li><a class="link_name" href="#">COE Exam Links</a></li>
+            </ul>
+        </li>
+        <li>
+            <div class="iocn-link">
+                <a href="#">
+                    <i class='bx bx-search-alt'></i>
+                    <span class="link_name">Query</span>
+                </a>
+                <i class='bx bxs-chevron-down arrow'></i>
+            </div>
+            <ul class="sub-menu">
+                <li><a class="link_name" href="#">Query</a></li>
+                <li><a href="#">Course Reg Links View</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Spotlight</a></li>
+                <li><a href="#">View Circular(s)</a></li>
+            </ul>
+        </li>
+        <li>
+            <div class="iocn-link">
+                <a href="#">
+                    <i class="bx bx-wallet-alt"></i>
+                    <span class="link_name">Online Payments</span>
+                </a>
+                <i class='bx bxs-chevron-down arrow'></i>
+            </div>
+            <ul class="sub-menu">
+                <li><a class="link_name" href="#">Online Payments</a></li>
+                <li><a href="#">Payments</a></li>
+                <li><a href="#">Payments Receipts</a></li>
+                <li><a href="#">Online Transfer</a></li>
+                <li><a href="#">Student Wallet</a></li>
+            </ul>
+        </li>
+        <li>
+            <div class="iocn-link">
+                <a href="#">
+                    <i class='bx bx-cog'></i>
+                    <span class="link_name">Settings</span>
+                </a>
+                <i class='bx bxs-chevron-down arrow'></i>
+            </div>
+            <ul class="sub-menu">
+                <li><a class="link_name" href="#">Settings</a></li>
+                <li><a href="#">Change Password</a></li>
+            </ul>
         </li>
     </ul>
 
-        <div class="profile-details">
-          <div class="profile-content">
-        <div class="theme-wrapper">
-          <i class="bx bxs-moon theme-icon"></i>
-          <p>Dark Mode</p>
-          <div class="theme-btn">
-            <span class="theme-ball"></span>
-          </div>
+    <div class="profile-details">
+        <div class="profile-content">
+            <div class="theme-wrapper">
+                <i class="bx bxs-moon theme-icon"></i>
+                <p>Dark Mode</p>
+                <div class="theme-btn">
+                    <span class="theme-ball"></span>
+                </div>
+            </div>
         </div>
-          </div>
-        </div>
-  </div>
-  <section class="home-section">
+    </div>
+</div>
+<section class="home-section">
 
     <nav class="navbar">
-      <div class="navdiv">
-       <ul>
-          <li><a href="#">Marks View</a></li>
-          <li><a href="#">Class Attendance</a></li>
-          <li><a href="#">Course Page</a></li>
-          <li><a href="#">DA Upload</a></li>
-          <li><a href="#">Time Table</a></li>
-          <li><a href="#">Academic Calender</a></li>
-          <li><a href="#">My Curriculum</a></li>
-          <li><a href="#">Sem Grade</a></li>
-       </ul>
-      </div>
-  </nav>
-  
+        <div class="navdiv">
+            <ul>
+                <li><a href="#">Marks View</a></li>
+                <li><a href="#">Class Attendance</a></li>
+                <li><a href="#">Course Page</a></li>
+                <li><a href="#">DA Upload</a></li>
+                <li><a href="#">Time Table</a></li>
+                <li><a href="#">Academic Calender</a></li>
+                <li><a href="#">My Curriculum</a></li>
+                <li><a href="#">Sem Grade</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <div>
-      <a href="Academics.html" class="btn4">
-        <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+        <a href="Academics.html" class="btn4">
+            <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+            <lord-icon
+                id="academics-icon"
+                src="https://cdn.lordicon.com/qvbrkejx.json"
+                trigger="morph"
+                colors="primary:#000000"
+                style="width:100px;height:100px;">
+            </lord-icon>
+        </a>
+    </div>
+    <div>
+        <a href="Research.html" class="btn5">
+            <lord-icon
+                id="research-icon"
+                src="https://cdn.lordicon.com/xfftupfv.json"
+                trigger="hover"
+                colors="primary:#000000"
+                style="width:100px;height:100px">
+            </lord-icon>
+        </a>
+    </div>
+    
+    <div>
+        <a href="Examination.html" class="btn6">
+            <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+            <lord-icon
+                id="examination-icon"
+                src="https://cdn.lordicon.com/frjgvxce.json"
+                trigger="hover"
+                colors="primary:#000000"
+                style="width:100px;height:100px">
+            </lord-icon>
+        </a>
+    </div>
+    <div>
+        <a href="Services.html" class="btn7">
+            <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+            <lord-icon
+                id="services-icon"
+                src="https://cdn.lordicon.com/hkkhwztk.json"
+                trigger="hover"
+                colors="primary:#000000"
+                state="hover"
+                style="width:100px;height:100px">
+            </lord-icon>
+        </a>
+    </div>
+    <div>
+        <a href="Library.html" class="btn8">
+            <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+            <lord-icon
+                id="library-icon"
+                src="https://cdn.lordicon.com/cigflfol.json"
+                trigger="hover"
+                colors="primary:#000000"
+                style="width:100px;height:100px">
+            </lord-icon>
+        </a>
+    </div>
+    <div>
+        <a href="Hostel.html" class="btn10">
+            <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+            <lord-icon
+                id="hostel-icon"
+                src="https://cdn.lordicon.com/slduhdil.json"
+                trigger="hover"
+                colors="primary:#000000"
+                state="hover-1"
+                style="width:100px;height:100px">
+            </lord-icon>
+        </a>
+    </div>
+    <div>
+        <a href="Feedback.html" class="btn11">
+            <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+            <lord-icon
+                id="feedback-icon"
+                src="https://cdn.lordicon.com/pkmkagva.json"
+                trigger="hover"
+                colors="primary:#000000"
+                state="hover"
+                style="width:100px;height:100px">
+            </lord-icon>
+        </a>
+    </div>
+    <div>
+        <a href="CDC.html" class="btn12">
+          <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
           <lord-icon
-            src="https://cdn.lordicon.com/qvbrkejx.json"
-            trigger="morph"
-            style="width:100px;height:100px">
+              id="cdc-icon"
+              src="https://cdn.lordicon.com/ogkplaef.json"
+              trigger="hover"
+              colors="primary:#000000"
+              style="width:100px;height:100px">
           </lord-icon>
-      </a>
-   </div>
-   <div>
-      <a href="Research.html" class="btn5">
-        <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
-        <lord-icon
-            src="https://cdn.lordicon.com/xfftupfv.json"
-            trigger="hover"
-            style="width:100px;height:100px">
-        </lord-icon>
-      </a>
-   </div>
-   <div>
-     <a href="Examination.html" class="btn6">
-      <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
-      <lord-icon
-          src="https://cdn.lordicon.com/frjgvxce.json"
-          trigger="hover"
-          style="width:100px;height:100px">
-      </lord-icon>
-    </a>
-   </div>
-   <div>
-      <a href="Services.html" class="btn7">
-        <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
-        <lord-icon
-            src="https://cdn.lordicon.com/hkkhwztk.json"
-            trigger="hover"
-            colors="primary:#121331"
-            state="hover"
-            style="width:100px;height:100px">
-        </lord-icon>
-      </a>
-   </div>
-   <div>
-      <a href="Library.html" class="btn8">
-        <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
-        <lord-icon
-            src="https://cdn.lordicon.com/cigflfol.json"
-            trigger="hover"
-            style="width:100px;height:100px">
-        </lord-icon>
-      </a>
-   </div>
-   <div>
-      <a href="Hostel.html" class="btn10">
-        <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
-        <lord-icon
-            src="https://cdn.lordicon.com/slduhdil.json"
-            trigger="hover"
-            colors="primary:#121331"
-            state="hover-1"
-            style="width:100px;height:100px">
-        </lord-icon>
-      </a>
-   </div>
-   <div>
-      <a href="Feedback.html" class="btn11">
-        <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
-        <lord-icon
-            src="https://cdn.lordicon.com/pkmkagva.json"
-            trigger="hover"
-            colors="primary:#121331"
-            state="hover"
-            style="width:100px;height:100px">
-        </lord-icon>
-      </a>
-   </div>
-   <div>
-      <a href="CDC.html" class="btn12">
-        <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
-        <lord-icon
-            src="https://cdn.lordicon.com/ogkplaef.json"
-            trigger="hover"
-            style="width:100px;height:100px">
-        </lord-icon>
-      </a>
-   </div>
-   <div>
-      <a href="Alumni.html" class="btn13">
-        <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
-        <lord-icon
-            src="https://cdn.lordicon.com/hbvyhtse.json"
-            trigger="hover"
-            style="width:100px;height:100px">
-        </lord-icon>
-      </a>
-   </div>
-   <div>
-      <a href="StudentR.html" class="btn14">
-        <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
-        <lord-icon
-            src="https://cdn.lordicon.com/uvlzcswc.json"
-            trigger="hover"
-            style="width:100px;height:100px">
-        </lord-icon>
-      </a>
-   </div>
+        </a>
+     </div>
+     <div>
+        <a href="Alumni.html" class="btn13">
+          <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+          <lord-icon
+              id="alumni-icon"
+              src="https://cdn.lordicon.com/hbvyhtse.json"
+              trigger="hover"
+              colors="primary:#000000"
+              style="width:100px;height:100px">
+          </lord-icon>
+        </a>
+     </div>
+     <div>
+        <a href="StudentR.html" class="btn14">
+          <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+          <lord-icon
+              id="student-icon"
+              src="https://cdn.lordicon.com/uvlzcswc.json"
+              trigger="hover"
+              colors="primary:#000000"
+              style="width:100px;height:100px">
+          </lord-icon>
+        </a>
+     </div> 
+     
+     <div class="action">
+        <div class="profile" onclick="menuToggle();">
+            <img src="ProfileIcon.png" alt="">
+        </div>
+    
+        <div class="menu">
+            <h3>
+                User Account
+                <div>
+                    Student
+                </div>
+            </h3>
+            <ul>
+                <li>
+                    <a href="#">
+                      <i class='bx bxs-user'></i>
+                      <span class="title">Profile</span>
+                    </a>
+                </li>
+                <li>
+                  <a href="Start.html">
+                    <i class='bx bx-exit' ></i>
+                    <span class="title">Logout</span>
+                  </a>
+                </li>
+            </ul>
+        </div>
+     </div>
+</section>
 
-   <div class="action">
-    <div class="profile" onclick="menuToggle();">
-        <img src="ProfileIcon.png" alt="">
-    </div>
-
-    <div class="menu">
-        <h3>
-            User Account
-            <div>
-                Student
-            </div>
-        </h3>
-        <ul>
-            <li>
-                <a href="#">
-                  <i class='bx bxs-user'></i>
-                  <span class="title">Profile</span>
-                </a>
-            </li>
-            <li>
-              <a href="Start.html">
-                <i class='bx bx-exit' ></i>
-                <span class="title">Logout</span>
-              </a>
-            </li>
-        </ul>
-    </div>
- </div>
-
-  </section>
-
-  <script>
+<script>
     const btn_menu = document.querySelector(".btn-menu");
     const side_bar = document.querySelector(".sidebar");
 
     btn_menu.addEventListener("click", function () {
-      side_bar.classList.toggle("expand");
-      changebtn();
+        side_bar.classList.toggle("expand");
+        changebtn();
     });
 
     function changebtn() {
-      if (side_bar.classList.contains("expand")) {
-        btn_menu.classList.replace("bx-menu", "bx-menu-alt-right");
-      } else {
-        btn_menu.classList.replace("bx-menu-alt-right", "bx-menu");
-      }
+        if (side_bar.classList.contains("expand")) {
+            btn_menu.classList.replace("bx-menu", "bx-menu-alt-right");
+        } else {
+            btn_menu.classList.replace("bx-menu-alt-right", "bx-menu");
+        }
     }
 
     const btn_theme = document.querySelector(".theme-btn");
@@ -301,50 +329,72 @@
     const localData = localStorage.getItem("theme");
 
     if (localData == null) {
-      localStorage.setItem("theme", "light");
+        localStorage.setItem("theme", "light");
     }
 
     if (localData == "dark") {
-      document.body.classList.add("dark-mode");
-      theme_ball.classList.add("dark");
+        document.body.classList.add("dark-mode");
+        theme_ball.classList.add("dark");
     } else if (localData == "light") {
-      document.body.classList.remove("dark-mode");
-      theme_ball.classList.remove("dark");
+        document.body.classList.remove("dark-mode");
+        theme_ball.classList.remove("dark");
     }
 
     btn_theme.addEventListener("click", function () {
-      document.body.classList.toggle("dark-mode");
-      theme_ball.classList.toggle("dark");
-      if (document.body.classList.contains("dark-mode")) {
-        localStorage.setItem("theme", "dark");
-      } else {
-        localStorage.setItem("theme", "light");
-      }
-    });
-  </script>
+        document.body.classList.toggle("dark-mode");
+        theme_ball.classList.toggle("dark");
 
-  <script>
-  let arrow = document.querySelectorAll(".arrow");
-  for (var i = 0; i < arrow.length; i++) {
-    arrow[i].addEventListener("click", (e)=>{
-   let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
-   arrowParent.classList.toggle("showMenu");
-    });
-  }
-  let sidebar = document.querySelector(".sidebar");
-  let sidebarBtn = document.querySelector(".bx-menu");
-  console.log(sidebarBtn);
-  sidebarBtn.addEventListener("click", ()=>{
-    sidebar.classList.toggle("close");
-  });
-  </script>
+        // Save the current theme to local storage
+        if (document.body.classList.contains("dark-mode")) {
+            localStorage.setItem("theme", "dark");
+        } else {
+            localStorage.setItem("theme", "light");
+        }
 
-  <script>
+        // Update icon color after changing theme
+        updateIconColor();
+    });
+
+    // Function to update the lord-icon color based on theme
+    const lordIcon = document.getElementById('my-lord-icon');
+
+    // Function to update the lord-icons' colors based on theme
+    function updateIconColor() {
+        const isDarkMode = document.body.classList.contains('dark-mode'); // Check if dark mode is active
+        const academicsIcon = document.getElementById('academics-icon');
+        const researchIcon = document.getElementById('research-icon');
+        const examinationIcon = document.getElementById('examination-icon');
+        const servicesIcon = document.getElementById('services-icon');
+        const libraryIcon = document.getElementById('library-icon');
+        const hostelIcon = document.getElementById('hostel-icon');
+        const feedbackIcon = document.getElementById('feedback-icon');
+        const cdcIcon = document.getElementById('cdc-icon');
+        const alumniIcon = document.getElementById('alumni-icon');
+        const studentIcon = document.getElementById('student-icon');
+    
+    // Set colors based on mode
+        academicsIcon.setAttribute('colors', isDarkMode ? 'primary:#ffffff' : 'primary:#000000');
+        researchIcon.setAttribute('colors', isDarkMode ? 'primary:#ffffff' : 'primary:#000000');
+        examinationIcon.setAttribute('colors', isDarkMode ? 'primary:#ffffff' : 'primary:#000000');
+        servicesIcon.setAttribute('colors', isDarkMode ? 'primary:#ffffff' : 'primary:#000000');
+        libraryIcon.setAttribute('colors', isDarkMode ? 'primary:#ffffff' : 'primary:#000000');
+        hostelIcon.setAttribute('colors', isDarkMode ? 'primary:#ffffff' : 'primary:#000000');
+        feedbackIcon.setAttribute('colors', isDarkMode ? 'primary:#ffffff' : 'primary:#000000');
+        cdcIcon.setAttribute('colors', isDarkMode ? 'primary:#ffffff' : 'primary:#000000');
+        alumniIcon.setAttribute('colors', isDarkMode ? 'primary:#ffffff' : 'primary:#000000');
+        studentIcon.setAttribute('colors', isDarkMode ? 'primary:#ffffff' : 'primary:#000000');
+    }
+
+    // Call updateIconColor() initially and after toggling themes
+    updateIconColor();
+</script>
+
+<script>
     function menuToggle(){
         const toggleMenu = document.querySelector('.menu');
         toggleMenu.classList.toggle('active')
     }
-  </script>
+</script>
 
 </body>
 </html>
